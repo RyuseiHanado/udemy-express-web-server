@@ -1,0 +1,15 @@
+h1 {
+  color: green;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+button {
+  border: 1px solid gray;
+  padding: 7px;
+  color: white;
+  background-color: tomato;
+}
