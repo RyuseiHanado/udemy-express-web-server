@@ -32,6 +32,7 @@ app.get("/api/v1/users", function (req, res) {
   });
 });
 
-app.listen(3000, () => console.log("I an running"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log("I an running"));
 
 console.log("最終行");
